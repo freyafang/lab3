@@ -37,7 +37,7 @@ function projectClick(e) {
 
     // In an event listener, $(this) is the leement that fired the event
     var projectTitle = $(this).find("p").text();
-    var jumbotronHeader = $("#jumbotron h1");
+    var jumbotronHeader = $(".jumbotron h1");
     console.log("Number of matching items" + jumbotronHeader.length)
     jumbotronHeader.text(projectTitle);
 
